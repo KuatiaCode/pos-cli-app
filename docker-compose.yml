@@ -1,0 +1,10 @@
+services:
+  pos-app:
+    build: .
+    container_name: pos_sistema_consola
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DB_PATH=/app/data/pos.db

@@ -1,0 +1,10 @@
+# Documentación
+/docs/
+
+# OpenCode
+.opencode*
+opencode.json
+opencode.jsonc
+opencode.log
+opencode-sessions/
+AGENTS.md
