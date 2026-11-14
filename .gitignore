@@ -8,3 +8,10 @@ opencode.jsonc
 opencode.log
 opencode-sessions/
 AGENTS.md
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Base de datos local
+data/pos.db
